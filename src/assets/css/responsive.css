@@ -1,0 +1,986 @@
+/* START EXTRA SMALL SCREEN */
+
+@media (max-width: 576px) {
+
+    p,
+    .button,
+    .footer .foot ul li a,
+    .footer .foot form button,
+    .tab-content .info li,
+    .form-control option,
+    .tab-content .favorite .item .item-bout span,
+    .tab-content .favorite .item .button,
+    .tab-content .message-deatils .message-info .image-text span,
+    .box-company ul li,
+    .footer .foot ul li,
+    .company-deatils .nav-pills .nav-link {
+        font-size: 13px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .nav-phone {
+        display: block;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        line-height: normal;
+    }
+
+    .user-box .nav-tabs .nav-link {
+        font-size: 12px;
+    }
+
+    .form-control::-webkit-input-placeholder {
+        color: #898989;
+        font-size: 13px;
+        text-transform: none;
+    }
+
+    .tab-content .favorite .item .item-bout h5 {
+        font-size: 17px;
+    }
+
+    .footer .foot form input {
+        position: relative;
+        top: 2px;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    form .col-xl-4.col-sm-12 {
+        padding-left: 5px !important;
+    }
+
+    form .form-control.one {
+        border-radius: 0;
+    }
+
+    .form-row .btn.btn-primary {
+        display: block;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .main-title::after {
+        display: none;
+    }
+
+    .user-box .panel .float-div {
+        float: none !important;
+    }
+
+    .user-box .about-user p {
+        text-align: center;
+        line-height: 1.7;
+    }
+
+    .user-box .about-user p i {
+        display: none;
+    }
+
+    .user-box .about-user p a {
+        margin: 0 5px;
+    }
+
+    .user-box .nav-tabs {
+        display: block !important;
+    }
+
+    .tab-content .favorite .item .item-image.float-left {
+        text-align: center;
+        float: none !important;
+        margin: 20px 0;
+    }
+
+    .tab-content .favorite .item .item-bout {
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .tab-content .favorite .pagination ul li {
+        font-size: 14px;
+        padding: 5px 10px;
+        margin-bottom: 10px;
+    }
+
+    .tab-content .favorite .pagination ul li:nth-of-type(4),
+    .tab-content .favorite .pagination ul li:nth-of-type(5),
+    .tab-content .favorite .pagination ul li:nth-of-type(6) {
+        display: none;
+    }
+
+    .tab-content .favorite .item .item-bout h5 {
+        font-size: 18px;
+    }
+
+    .pael_1 {
+        border-radius: 5px !important;
+        margin-bottom: 20px;
+    }
+
+    .pael_2 {
+        border: 1px solid #98a6ad75 !important;
+        border-radius: 5px !important;
+    }
+
+    .col-xl-4.col-sm-12.one {
+        padding-right: 15px !important;
+    }
+
+    .col-xl-8.col-sm-12.one {
+        padding-left: 15px !important;
+    }
+
+    .tab-content .message-box .recive-message img,
+    .tab-content .message-box .send-message img {
+        display: none;
+    }
+
+    .modal-title {
+        font-size: 18px;
+    }
+
+    .tab-content .info li,
+    .footer .foot ul li a {
+        font-size: 14px;
+    }
+
+    .company-deatils .nav-pills {
+        position: static;
+        margin-top: 30px !important;
+    }
+
+    .company-deatils .button-one {
+        margin-bottom: 30px;
+    }
+
+    .company-deatils .button-one .button {
+        margin: 0;
+        margin-right: 10px;
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .Social-button {
+        text-align: center !important;
+        padding-top: .40rem !important;
+    }
+
+    .company-deatils .div-about,
+    .company-deatils .button-one {
+        float: none !important;
+        margin-bottom: 30px;
+    }
+
+    .comapny-button .button {
+        text-align: center;
+        margin-bottom: 15px;
+        display: block;
+    }
+
+    .comapny-button .button:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .tab-content .info li input {
+        float: none;
+        width: 230px;
+    }
+
+    .tab-content .queotion .parent-queotion,
+    .tab-content .panel.box-queotion {
+        display: none;
+    }
+
+    .imgUp,
+    div.Add {
+        width: 100%;
+    }
+
+    label {
+        left: 160px;
+    }
+
+    .modal-edit .box-company ul:first-of-type li input,
+    .modal-edit .form input {
+        width: 213px;
+    }
+
+    .modal-edit .form-modal {
+        display: none !important;
+    }
+
+    .modal-edit .btn-plus {
+        display: none;
+    }
+
+    .logo-brand .imgUp,
+    .logo-brand div.Add {
+        width: 100%;
+    }
+
+    .logo-brand label {
+        left: 156px;
+    }
+
+    .company-deatils .nav-pills .nav-item:nth-of-type(4) .nav-link {
+        margin-top: 10px;
+    }
+
+    .company-deatils .nav-pills .nav-item:nth-of-type(3) .nav-link {
+        border-right: 1px solid #98a6ad75;
+    }
+
+    .comapny-button .edit {
+        margin-top: 15px;
+    }
+
+    .home-content .register h4,
+    .download h4 {
+        padding-bottom: 10px;
+        font-size: 20px;
+    }
+
+    .home-content .register .col-sm-6 {
+        text-align: center !important;
+    }
+
+    .download .button-down {
+        width: 195px;
+    }
+
+    .download .button-down .text {
+        font-size: 13px;
+    }
+
+    .download .button-down .text h6 {
+        font-size: 15px;
+    }
+
+    .download {
+        text-align: center !important;
+    }
+
+    .download .float-left.py-3 {
+        float: none !important;
+        margin-bottom: 15px;
+
+    }
+
+    .download .button-down {
+        margin-left: 0;
+    }
+
+    .bg-register .register-box,
+    .bg-register .sign-box {
+        width: 100%;
+    }
+
+    .bg-register .register-box form,
+    .bg-register .sign-box form {
+        padding: 0 1rem;
+    }
+
+    .bg-register .register-box form .col-xl-6.col-sm-12 {
+        padding: 0 !important;
+    }
+
+    .copy-register .col-xl-6.col-sm-12 {
+        text-align: center !important;
+    }
+
+    .bg-register .sign-box form .footer .foot {
+        margin-bottom: 20px;
+    }
+
+    .search-content .row.grid-view .panel.col-sm-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin: 0 0 30px;
+    }
+
+    .search-content .row.list-view .text {
+        margin-top: 15px;
+    }
+
+    .footer .foot form input {
+        border: 1px solid #98a6ad75 !important;
+    }
+
+    .footer .foot form button {
+        margin-left: 1px;
+        margin-top: 10px;
+    }
+
+    .copyright,
+    .copyright .text-right {
+        text-align: center !important;
+        font-size: 14px;
+    }
+
+    .copyright a {
+        margin-top: 10px;
+    }
+}
+
+/* END EXTRA SMALL SCREEN */
+
+/* START SMALL SCREEN */
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+    p,
+    .button,
+    .footer .foot ul li a,
+    .footer .foot form button,
+    .tab-content .info li,
+    .form-control option,
+    .tab-content .favorite .item .item-bout span,
+    .tab-content .favorite .item .button,
+    .tab-content .message-deatils .message-info .image-text span,
+    .box-company ul li,
+    .footer .foot ul li,
+    .company-deatils .nav-pills .nav-link {
+        font-size: 13px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .nav-phone {
+        display: block;
+    }
+
+    .user-box .nav-tabs .nav-link {
+        font-size: 12px;
+    }
+
+    .form-control::-webkit-input-placeholder {
+        color: #898989;
+        font-size: 13px;
+        text-transform: none;
+    }
+
+    .tab-content .favorite .item .item-bout h5 {
+        font-size: 17px;
+    }
+
+    .footer .foot form input {
+        position: relative;
+        top: 2px;
+    }
+
+    form .col-xl-4.col-sm-12 {
+        padding-left: 5px !important;
+    }
+
+    form .form-control.one {
+        border-radius: 0;
+    }
+
+    .form-row .btn.btn-primary {
+        display: block;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .main-title::after {
+        display: none;
+    }
+
+    .user-box .panel .item .float-div {
+        float: none !important;
+    }
+
+    .user-box .about-user p {
+        text-align: center;
+        line-height: 1.7;
+    }
+
+    .user-box .about-user p i:nth-of-type(2) {
+        display: none
+    }
+
+    .user-box .nav-tabs {
+        display: block !important;
+    }
+
+    .tab-content .favorite .item .item-image.float-left {
+        text-align: center;
+        float: none !important;
+        margin-bottom: 20px;
+    }
+
+    .tab-content .favorite .item .item-bout {
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .tab-content .favorite .pagination ul li {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .pael_1 {
+        border-radius: 5px !important;
+        margin-bottom: 20px;
+    }
+
+    .pael_2 {
+        border: 1px solid #98a6ad75 !important;
+        border-radius: 5px !important;
+    }
+
+    .col-xl-4.col-sm-12.one {
+        padding-right: 15px !important;
+    }
+
+    .col-xl-8.col-sm-12.one {
+        padding-left: 15px !important;
+    }
+
+    .company-deatils .div-about,
+    .company-deatils .button-one {
+        float: none !important;
+        margin-bottom: 30px;
+    }
+
+    .company-deatils .nav-pills {
+        position: static;
+        margin-top: 30px !important;
+    }
+
+    .company-deatils .button-one .button {
+        margin: 0;
+        margin-right: 10px;
+    }
+
+    .tab-content .info li,
+    .footer .foot ul li a {
+        font-size: 14px;
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .modal-edit .btn-plus {
+        display: none !important;
+    }
+
+    .tab-content .info li input {
+        float: none;
+        width: 240px;
+    }
+
+    .tab-content .queotion .parent-queotion,
+    .tab-content .panel.box-queotion {
+        display: none;
+    }
+
+
+    .Social-button {
+        text-align: left !important;
+        padding-top: .40rem !important;
+    }
+
+    .imgUp,
+    div.Add {
+        width: 45%;
+    }
+
+    label {
+        left: 93px;
+    }
+
+
+    .modal-edit .form-modal {
+        display: none !important;
+    }
+
+    .home-content .register h4,
+    .download h4 {
+        font-size: 16px;
+        line-height: 1.7;
+    }
+
+    .download .button-down {
+        width: 195px;
+    }
+
+    .download .button-down .text {
+        font-size: 13px;
+    }
+
+    .download .button-down .text h6 {
+        font-size: 15px;
+    }
+
+    .download {
+        text-align: center !important;
+    }
+
+    .download .float-left.py-3 {
+        float: none !important;
+        margin-bottom: 15px;
+    }
+
+    .download a:first-of-type .button-down {
+        margin-left: 0;
+    }
+
+    .bg-register .register-box,
+    .bg-register .sign-box {
+        width: 100%;
+    }
+
+    .bg-register .register-box form,
+    .bg-register .sign-box form {
+        padding: 0 2rem;
+    }
+
+    .bg-register .register-box form .col-xl-6.col-sm-12 {
+        padding: 0 !important;
+    }
+
+    .copy-register .col-xl-6.col-sm-12 {
+        text-align: center !important;
+    }
+
+    .search-content .row.grid-view .panel.col-sm-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .search-content .row.list-view .text {
+        margin-top: 15px;
+    }
+
+    .footer .foot {
+        margin-bottom: 20px;
+    }
+
+    .footer .foot form input {
+        border: 1px solid #98a6ad75 !important;
+    }
+
+    .footer .foot form button {
+        margin-left: 0;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+}
+
+/* END SMALL SCREEN */
+
+/* START MEDUIM SCREEN */
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    p,
+    .button,
+    .footer .foot ul li a,
+    .footer .foot form button,
+    .tab-content .info li,
+    .form-control option,
+    .tab-content .favorite .item .item-bout span,
+    .tab-content .favorite .item .button,
+    .tab-content .message-deatils .message-info .image-text span,
+    .box-company ul li,
+    .footer .foot ul li,
+    .company-deatils .nav-pills .nav-link {
+        font-size: 13px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .nav-phone {
+        display: block;
+    }
+
+    .main-title::after {
+        display: none;
+    }
+
+    .user-box .nav-tabs .nav-link {
+        font-size: 12px;
+    }
+
+    .form-control::-webkit-input-placeholder {
+        color: #898989;
+        font-size: 13px;
+        text-transform: none;
+    }
+
+    .tab-content .favorite .item .item-bout h5 {
+        font-size: 17px;
+    }
+
+    .footer .foot form input {
+        position: relative;
+        top: 2px;
+    }
+
+    form .col-xl-4.col-sm-12 {
+        padding-left: 5px !important;
+    }
+
+    form .form-control.one {
+        border-radius: 0;
+    }
+
+    .form-row .btn.btn-primary {
+        display: block;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .user-box .about-user p,
+    .user-box .nav-tabs .nav-link {
+        font-size: 14px;
+    }
+
+    .pael_1 {
+        border-radius: 5px !important;
+        margin-bottom: 20px;
+    }
+
+    .pael_2 {
+        border: 1px solid #98a6ad75 !important;
+        border-radius: 5px !important;
+    }
+
+    .col-xl-4.col-sm-12.one {
+        padding-right: 15px !important;
+    }
+
+    .col-xl-8.col-sm-12.one {
+        padding-left: 15px !important;
+    }
+
+    .company-deatils .div-about,
+    .company-deatils .button-one {
+        margin-top: 30px;
+    }
+
+    .slider .owl-carousel .item {
+        height: fit-content;
+    }
+
+    .Social-button {
+        text-align: left !important;
+        padding-top: .40rem !important;
+    }
+
+    .tab-content .info li input {
+        width: 250px;
+    }
+
+    .tab-content .info li input {
+        float: none;
+    }
+
+    .imgUp,
+    div.Add {
+        width: 45%;
+    }
+
+    label {
+        left: 93px;
+    }
+
+    .logo-brand .imgUp,
+    .logo-brand div.Add {
+        width: 27%;
+    }
+
+    .logo-brand label {
+        left: 53px;
+    }
+
+    .tab-content .queotion .parent-queotion,
+    .tab-content .panel.box-queotion {
+        display: none;
+    }
+
+    .home-content .register h4,
+    .download h4 {
+        font-size: 20px;
+    }
+
+    .download .button-down {
+        width: 195px;
+    }
+
+    .download .button-down .text {
+        font-size: 13px;
+    }
+
+    .download .button-down .text h6 {
+        font-size: 15px;
+    }
+
+    .download {
+        text-align: center !important;
+    }
+
+    .download .float-left.py-3 {
+        float: none !important;
+        margin-bottom: 15px;
+    }
+
+    .download a:first-of-type .button-down {
+        margin-left: 0;
+    }
+
+    .bg-register .register-box {
+        width: 100%;
+    }
+
+    .bg-register .register-box form {
+        padding: 0 2rem;
+    }
+
+    .bg-register .register-box form .col-xl-6.col-sm-12 {
+        padding: 0 !important;
+    }
+
+    .copy-register .col-xl-6.col-sm-12 {
+        text-align: center !important;
+    }
+
+    .bg-register .register-box form h6::after {
+        width: 84%;
+    }
+
+    .search-content .row.grid-view .panel.col-sm-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .search-content .row.list-view .text {
+        margin-top: 15px;
+    }
+
+    .footer .foot {
+        margin-bottom: 20px;
+    }
+
+    .footer .foot form input {
+        border: 1px solid #98a6ad75 !important;
+    }
+
+    .footer .foot form button {
+        margin-left: 0;
+        margin-top: 10px;
+        font-size: 13px;
+    }
+
+}
+
+/* END MEDUIM SCREEN */
+
+
+/* START LARGE SCREEN */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+    p,
+    .button,
+    .footer .foot ul li a,
+    .footer .foot form button,
+    .tab-content .info li,
+    .form-control option,
+    .tab-content .favorite .item .item-bout span,
+    .tab-content .favorite .item .button,
+    .tab-content .message-deatils .message-info .image-text span,
+    .box-company ul li,
+    .footer .foot ul li,
+    .company-deatils .nav-pills .nav-link {
+        font-size: 13px;
+    }
+
+    .user-box .nav-tabs .nav-link {
+        font-size: 12px;
+    }
+
+    .form-control::-webkit-input-placeholder {
+        color: #898989;
+        font-size: 13px;
+        text-transform: none;
+    }
+
+    .tab-content .favorite .item .item-bout h5 {
+        font-size: 17px;
+    }
+
+    .footer .foot form input {
+        position: relative;
+        top: 2px;
+    }
+
+    form .col-xl-4.col-sm-12 {
+        padding-left: 5px !important;
+    }
+
+    form .form-control.one {
+        border-radius: 0;
+    }
+
+    .form-row .btn.btn-primary {
+        display: block;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .company-deatils .div-about,
+    .company-deatils .button-one {
+        margin-top: 30px;
+    }
+
+    .pael_1 {
+        border-radius: 5px !important;
+        margin-bottom: 20px;
+    }
+
+    .pael_2 {
+        border: 1px solid #98a6ad75 !important;
+        border-radius: 5px !important;
+    }
+
+    .col-xl-4.col-sm-12.one {
+        padding-right: 15px !important;
+    }
+
+    .col-xl-8.col-sm-12.one {
+        padding-left: 15px !important;
+    }
+
+    .Social-button {
+        text-align: left !important;
+        padding-top: .40rem !important;
+    }
+
+    .tab-content .info li input {
+        float: none;
+    }
+
+    .tab-content .queotion .box-queotion {
+        display: none;
+    }
+
+    .home-content .register h4,
+    .download h4 {
+        font-size: 20px;
+    }
+
+    .download .button-down {
+        width: 195px;
+    }
+
+    .download .button-down .text {
+        font-size: 13px;
+    }
+
+    .download .button-down .text h6 {
+        font-size: 15px;
+    }
+
+    .bg-register .register-box form {
+        padding: 0 2rem;
+    }
+
+    .bg-register .register-box form .col-xl-6.col-sm-12 {
+        padding: 0 !important;
+    }
+
+    .bg-register .register-box form h6::after {
+        width: 86%;
+    }
+
+    .copy-register .col-xl-6.col-sm-12 {
+        text-align: center !important;
+    }
+
+    .search-content .row.grid-view .panel.col-sm-12 {
+        flex: 0 0 46.2%;
+        max-width: 46.2%;
+    }
+
+    .search-content .row.list-view .text {
+        margin-top: 15px;
+    }
+
+}
+
+@media (min-width: 1200px) and (max-width: 1400px) {
+
+    p,
+    .button,
+    .footer .foot ul li a,
+    .footer .foot form button,
+    .tab-content .info li,
+    .form-control option,
+    .tab-content .favorite .item .item-bout span,
+    .tab-content .favorite .item .button,
+    .tab-content .message-deatils .message-info .image-text span,
+    .box-company ul li,
+    .footer .foot ul li {
+        font-size: 13px;
+    }
+
+    .user-box .nav-tabs .nav-link {
+        font-size: 12px;
+    }
+
+    .form-control::-webkit-input-placeholder {
+        color: #898989;
+        font-size: 13px;
+        text-transform: none;
+    }
+
+    .tab-content .favorite .item .item-bout h5 {
+        font-size: 17px;
+    }
+
+    .box-company .buttons .button {
+        padding: 7px 15px;
+    }
+
+    .download .button-down {
+        width: 195px;
+    }
+
+    .home-content .register h4,
+    .download h4 {
+        font-size: 20px;
+    }
+
+    .download .button-down .text {
+        font-size: 13px;
+    }
+
+    .download .button-down .text h6 {
+        font-size: 15px;
+    }
+
+    .footer .foot form input {
+        position: relative;
+        top: 2px;
+    }
+
+}
+
+/* END  LARGE SCREEN */

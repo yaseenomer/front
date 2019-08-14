@@ -1,0 +1,246 @@
+ <!-- =============== START PAGE WRAPPER OF CONTENT =============== -->
+ <section class="page-wrapper" [ngClass]="{'dirRtl': local=='ar'}">
+
+  <!-- START NAIGATION BAR -->
+  <div class="container">
+      <!-- START AREA PHONE -->
+      <div class="nav-phone">
+          <img src="assets/images/yellow.png" alt="Logo" width="100">
+          <i class="fas fa-ellipsis-h fa-fw fa-md float-right"></i>
+          <div class="clearfix"></div>
+          <div class="ul-phone">
+              <ul class="list-unstyled">
+                  <li><a href="" (click)="setlocalLang('ar')">عربي</a></li>
+                  <li><a href=""   >Need Help ?</a></li>
+                  <li><a href=""   >Profile</a></li>
+                  <li><a (click)="logout()" >Logout</a></li>
+                  <li><a href="#"   >{{"Login"  | translate}}</a></li>
+
+              </ul>
+          </div>
+      </div>
+      <!-- END AREA PHONE -->
+      <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="#"><img src="assets/images/yellow.png" alt="Logo" width="100"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav">
+                  <li class="nav-item dropdown">
+                    <!-- <ng-container *ngIf="local='ar'; else elseTemplate"> -->
+                            <a *ngIf="local=='ar'" class="nav-link dropdown-toggle" href="javascript:;"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img  src="assets/images/unitedarabemiratesfl.jpg" alt="" width="40"> عربي 
+                                    <!-- <img *ngIf="local=='En'" src="assets/images/unitedarabemiratesfl.jpg" alt="" width="40"> English {{local}} -->
+                                </a>
+                                <a *ngIf="local=='en'" class="nav-link dropdown-toggle" href="javascript:;"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <img  src="assets/images/en.jpg" alt="" width="40"> English 
+                                        <!-- <img *ngIf="local=='En'" src="assets/images/unitedarabemiratesfl.jpg" alt="" width="40"> English {{local}} -->
+    
+                                    </a>
+                                <div class="dropdown-menu userdrop2" aria-labelledby="navbarDropdown">
+                                    <a *ngIf="local=='ar'" class="dropdown-item" href="javascript:;" (click)="setlocalLang('en')">English</a>
+                                    <a *ngIf="local=='en'" class="dropdown-item" href="javascript:;" (click)="setlocalLang('ar')">عربي</a>
+
+                                </div>
+                    <!-- </ng-container>
+                    <ng-template #elseTemplate>
+                            <a class="nav-link dropdown-toggle" href="javascript:;" (click)="setlocalLang('en')" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <img src="" alt="" width="40"> English 
+                                </a>
+                                <div class="dropdown-menu userdrop2" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="javascript:;" (click)="setlocalLang('ar')">عربي</a>
+                                </div>
+                    </ng-template> -->
+                    
+                     
+                  </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">{{"Need Help ?" | translate}} </a>
+                  </li>
+              </ul>
+
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="fas fa-list-ul fa-fw fa-lg"></i>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="far fa-envelope fa-fw fa-lg"></i>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Message 1</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Message 2</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Message 3</a>
+                      </div>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <i class="far fa-bell fa-fw fa-lg"></i>
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">Notification 1</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Notification 2</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">Notification 3</a>
+                      </div>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <img src="assets/images/user1.png" alt="User Image" class="rounded-circle" width="40"> Rasta faray
+                          <i class="fas fa-chevron-down fa-fw fa-sm"></i>
+                      </a>
+                      <div class="dropdown-menu userdrop" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#">{{"Profile" | translate}}</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#">{{"Logout" | translate}}</a>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+  </div><!-- End Container -->
+  <!-- END NAIGATION BAR -->
+
+
+  <!-- =========== STRAT CONTENT PAGE =========== -->
+  <div class="content-page">
+     
+
+        <router-outlet>
+
+
+            </router-outlet>  
+
+
+
+  </div>
+  <!-- ============ END CONTENT PAGE ============ -->
+  
+  <!-- START DOWNLOAD SECTION -->
+  <div class="download py-5">
+      <div class="container">
+        <div class="float-left py-3"><h4 class="my-0">{{"Badr on your Mobile !" | translate}}</h4></div>
+        
+         <a href="#" target="_blank">
+              <div class="button-down">
+                  <img class=" float-left img-fluid" src="assets/images/google-play.png" alt="Google Play Icon" width="30">
+                  <div class="text float-left text-center">
+                      <h6>{{"Download" | translate}}</h6>
+                      <span>Google Play</span>
+                  </div>
+                  <div class="clearfix"></div>
+              </div><!-- Button Down -->
+          </a> 
+          
+           <a href="#" target="_blank">
+              <div class="button-down">
+                  <img class=" float-left img-fluid" src="assets/images/app-store.png" alt="Google Play Icon" width="30">
+                  <div class="text float-left text-center">
+                      <h6>{{"Download" | translate}}</h6>
+                      <span>{{"Apple store" | translate}}</span>
+                  </div>
+                  <div class="clearfix"></div>
+              </div><!-- Button Down -->
+          </a> 
+      </div><!-- End Container -->
+  </div>
+  <!-- END DOWNLOAD SECTION -->
+
+  <!-- START FOOTER AREA -->
+  <footer class="footer mt-0">
+      <div class="container">
+          <div class="row">
+              <div class="col-xl-2 col-sm-6">
+                  <div class="foot">
+                      <h6>{{trans('About us')}}</h6>
+                      <ul class="list-unstyled">
+                          <li><a href="#">{{"About Sarh App" | translate}}</a></li>
+                          <li><a href="#">{{trans("Advertise with us")}}</a></li>
+                          <li><a href="#">{{trans("Site Map")}}</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-xl-2 col-sm-6">
+                  <div class="foot">
+                      <h6>LEGAL</h6>
+                      <ul class="list-unstyled">
+                          <li><a href="#">{{trans("Terms & conditions")}}</a></li>
+                          <li><a href="#">{{trans("Privacy policy")}}</a></li>
+                          <li><a href="#">{{trans("Cookies policy")}}</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-xl-2 col-sm-6">
+                  <div class="foot">
+                      <h6>{{trans("Support")}}</h6>
+                      <ul class="list-unstyled">
+                          <li><a href="#">{{trans("Help")}}</a></li>
+                          <li><a href="#">{{trans("Contact Us")}}</a></li>
+                          <li><a href="#">{{trans("FAQs")}}</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-xl-4 col-sm-6">
+                  <div class="foot">
+                      <h6>{{trans("Subscribe to our newsletters")}}</h6>
+                      <form action="" method="">
+                          <input type="email" name="" id="" placeholder="email@example.com">
+                          <button class="btutton" type="submit">{{trans("Subscribe")}}</button>
+                      </form>
+                  </div>
+              </div>
+              <div class="col-xl-2 col-sm-6">
+                  <div class="foot position-relative">
+                      <h6>{{"Social Media" | translate}}</h6>
+                      <a href="#" title="Facebook"><img src="assets/images/001-facebook.png" alt="Facebook Icon" width="30"></a>
+                      <a href="#" title="Linkedin"><img src="assets/images/006-linkedin.png" alt="Linkedin Icon" width="30"></a>
+                      <a href="#" title="Twitter"><img src="assets/images/002-twitter.png" alt="Twitter Icon" width="30"></a>
+                      <!--
+                      <div class="buttons my-5">
+                          <button class="button">Sign Up</button>
+                          <button class="button">List Your Company</button>
+                      </div>
+-->
+                  </div>
+              </div>
+          </div><!-- End Row -->
+      </div><!-- End Container -->
+  </footer>
+  <!-- END FOOTER AREA -->
+
+  <!-- START COPYRIGHT -->
+  <div class="copyright py-4">
+      <div class="container">
+          <div class="row">
+              <div class="col-sm-6">
+                  <p>{{"Copyrights" | translate}}  2019 &copy; {{"Badr" | translate}}</p>
+              </div>
+              <div class="col-sm-6 text-right">
+                  <a href="#"><img src="assets/images/unitedarabemiratesfl.jpg" alt="Imag" width="40"> عربي</a>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- END COPYRIGHT -->
+</section>
+<!-- =============== END PAGE WRAPPER OF CONTENT =============== -->
+
+
